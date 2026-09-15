@@ -1,0 +1,35 @@
+# Java / Maven build outputs
+target/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Maven wrapper jar (keep .mvn/ scripts)
+/.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment & secrets
+.env
+.env.local
+*.pem
+*.key
